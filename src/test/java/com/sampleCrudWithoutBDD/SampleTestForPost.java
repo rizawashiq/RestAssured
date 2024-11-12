@@ -13,8 +13,8 @@ public class SampleTestForPost {
 	@Test
 	public void postDataToServer() {
 		JSONObject jobj = new JSONObject();
-		jobj.put("createdBy", "Washiq");
-		jobj.put("projectName", "Berry_1");
+		jobj.put("createdBy", "Professor");
+		jobj.put("projectName", "Heist");
 		jobj.put("status", "Created");
 		jobj.put("teamSize", 0);
 		

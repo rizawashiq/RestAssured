@@ -2,6 +2,8 @@ package practiceResponseValidation;
 
 import static io.restassured.RestAssured.given;
 
+import java.util.ArrayList;
+
 import org.hamcrest.Matchers;
 import org.testng.annotations.Test;
 
@@ -29,5 +31,16 @@ public class VerifyResponseBody {
 		resp.then().assertThat().body("content[0].projectId", Matchers.equalTo("NH_PROJ_950"));
 		String data3 = resp.jsonPath().get("content[0].projectId");
 		System.out.println(data3);
+		
+		
+		ArrayList<String> al = resp.jsonPath().get("content.projectName");
+		for(String x :al )
+		{
+			System.out.println(x);
+		}
+		
+		
+		
+		
 	}
 }
