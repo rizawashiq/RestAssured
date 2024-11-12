@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-12T10:19:05 IST" name="Default suite" finished-at="2024-11-12T10:19:07 IST" duration-ms="2290">
+  <suite started-at="2024-11-12T15:15:18 IST" name="Default suite" finished-at="2024-11-12T15:15:20 IST" duration-ms="1703">
     <groups>
     </groups>
-    <test started-at="2024-11-12T10:19:05 IST" name="Default test" finished-at="2024-11-12T10:19:07 IST" duration-ms="2290">
-      <class name="com.sampleCrudWithBDD.SampleTestForDelete">
-        <test-method signature="getDataToServer()[pri:0, instance:com.sampleCrudWithBDD.SampleTestForDelete@55b699ef]" started-at="2024-11-12T10:19:05 IST" name="getDataToServer" finished-at="2024-11-12T10:19:07 IST" duration-ms="2226" status="PASS">
+    <test started-at="2024-11-12T15:15:18 IST" name="Default test" finished-at="2024-11-12T15:15:20 IST" duration-ms="1703">
+      <class name="practiceResponseValidation.VerifyResponseBody">
+        <test-method signature="verifyBody()[pri:0, instance:practiceResponseValidation.VerifyResponseBody@145f66e3]" started-at="2024-11-12T15:15:18 IST" name="verifyBody" finished-at="2024-11-12T15:15:20 IST" duration-ms="1664" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getDataToServer -->
-      </class> <!-- com.sampleCrudWithBDD.SampleTestForDelete -->
+        </test-method> <!-- verifyBody -->
+      </class> <!-- practiceResponseValidation.VerifyResponseBody -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

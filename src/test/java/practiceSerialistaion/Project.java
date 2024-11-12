@@ -20,7 +20,7 @@ public class Project {// POJO class -->> Plain Old Java Object
 	@JsonProperty(value = "created By")
 	private String createdBy ;
 	private String status ;
-	private int teamSize ;
+	private int teamSize ;		
 	
 	private Project() {
 		
