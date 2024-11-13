@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="requestChaining.AddEmployeeToProject">
+      <class name="parameters.PathParametr">
         <methods>
-          <include name="addEmpployee"/>
+          <include name="demo"/>
         </methods>
-      </class> <!-- requestChaining.AddEmployeeToProject -->
+      </class> <!-- parameters.PathParametr -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
