@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="complexPostRequest.RequestViaJsonRequest">
+      <class name="requestChaining.AddEmployeeToProject">
         <methods>
-          <include name="requestviaJson"/>
+          <include name="addEmpployee"/>
         </methods>
-      </class> <!-- complexPostRequest.RequestViaJsonRequest -->
+      </class> <!-- requestChaining.AddEmployeeToProject -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
